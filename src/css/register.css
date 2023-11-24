@@ -1,0 +1,4 @@
+.register-input :focus-visible {
+  box-shadow: 0 0 0 1px #f0be76;
+  border-color: #f0be76;
+}

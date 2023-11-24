@@ -1,0 +1,11 @@
+.whychooseus_list_container:hover .details_container {
+  bottom: 3rem;
+}
+
+.whychooseus_list_container:hover .image_section {
+  bottom: 9rem;
+}
+
+.whychooseus_list_container:hover .learn_more {
+  bottom: 1rem;
+}

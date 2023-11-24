@@ -1,0 +1,16 @@
+.slide-item-container:hover .slide-details {
+  bottom: 50px;
+}
+
+.slide-item-container:hover .bg-image {
+  transform: scale(1.08);
+}
+
+.slide-item-container:hover .black-shade {
+  height: 13rem;
+}
+
+.slide-item-container:hover .view-details {
+  bottom: 20px;
+  transition: 0.5s ease-in;
+}
