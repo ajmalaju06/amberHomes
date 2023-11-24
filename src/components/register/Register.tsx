@@ -1,4 +1,4 @@
-import { Box, Button, Image, Input, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { color } from "../../helper/colors";
 import useFormValidation from "../../hooks/useFormValidation";
@@ -10,7 +10,7 @@ import FormControl from "../shared/FormControl";
 import RegBgImg from "../../assets/images/registration-bg.jpeg";
 
 const Register = () => {
-  const { formData, formErrors, handleChange, handleSubmit, isFormValid } =
+  const { formData, formErrors, handleChange, handleSubmit } =
     useFormValidation(registerFormInitialState, validationRules);
 
   return (

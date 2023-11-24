@@ -19,7 +19,6 @@ interface FormPropsInterface extends FormControlProps {
 }
 const FormControl: React.FC<FormPropsInterface> = ({
   label,
-  children,
   isInvalid,
   errorMsg,
   handleChange,

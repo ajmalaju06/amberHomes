@@ -1,9 +1,4 @@
-import {
-  FormControl,
-  FormErrorMessage,
-  FormLabel,
-  Input,
-} from "@chakra-ui/react";
+import { FormControl, FormErrorMessage, Input } from "@chakra-ui/react";
 import React, { ChangeEvent } from "react";
 
 interface InputFormControlProps {
@@ -15,7 +10,6 @@ interface InputFormControlProps {
 }
 
 const InputFormControl: React.FC<InputFormControlProps> = ({
-  label,
   placeholder,
   errorMessage,
   handleChange,

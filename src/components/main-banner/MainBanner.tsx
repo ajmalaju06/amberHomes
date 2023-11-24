@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Icon, Text } from "@chakra-ui/react";
+import { Box, Icon, Text } from "@chakra-ui/react";
 import { color } from "../../helper/colors";
 import "../../css/mainBanner.css";
 import { GoArrowDown } from "react-icons/go";
