@@ -129,4 +129,4 @@ const Properties = () => {
   );
 };
 
-export default Properties;
+export default React.memo(Properties);

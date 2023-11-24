@@ -2,6 +2,7 @@ import { Box, Image, ListItem, UnorderedList } from "@chakra-ui/react";
 import React from "react";
 import { headerMenuList } from "../../data/Common";
 import { color } from "../../helper/colors";
+import EmaarLogo from "../../assets/images/emaar-logo.png";
 
 interface HeaderProps {
   scrollPositions: number;
@@ -25,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ scrollPositions }) => {
     >
       <Box flex={1}>
         <Image
-          src="https://emaar.amberhomes.ae/assets/logo-300fab82.png"
+          src={EmaarLogo}
           alt="logo"
           filter={scrollPositions >= 40 ? "brightness(1) invert(1)" : "none"}
           w={"10rem"}
@@ -61,4 +62,4 @@ const Header: React.FC<HeaderProps> = ({ scrollPositions }) => {
   );
 };
 
-export default Header;
+export default React.memo(Header);

@@ -1,13 +1,13 @@
 import { Box, Button, Image, Input, Text } from "@chakra-ui/react";
 import React from "react";
 import { color } from "../../helper/colors";
-import InputFormControl from "../shared/InputFormControl";
 import useFormValidation from "../../hooks/useFormValidation";
 import {
   registerFormInitialState,
   validationRules,
 } from "../../helper/registrationForm.helper";
 import FormControl from "../shared/FormControl";
+import RegBgImg from "../../assets/images/registration-bg.jpeg";
 
 const Register = () => {
   const { formData, formErrors, handleChange, handleSubmit, isFormValid } =
@@ -25,20 +25,11 @@ const Register = () => {
       <Image
         w={"full"}
         h={"full"}
-        src={
-          "https://watermark.lovepik.com/photo/20211208/large/lovepik-dubai-city-night-view-picture_501588614.jpg"
-        }
+        src={RegBgImg}
         objectFit={"cover"}
         position={"absolute"}
       />
-      {/* <Box
-        w={"full"}
-        h="full"
-        background={"black"}
-        position={"absolute"}
-        zIndex={0}
-        opacity={0.6}
-      /> */}
+
       <Box width={"50%"} h={"70%"} zIndex={1} pos={"relative"}>
         <Box
           h="full"

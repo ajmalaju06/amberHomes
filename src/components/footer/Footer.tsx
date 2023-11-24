@@ -5,6 +5,7 @@ import { footerTopProjectList } from "../../data/Common";
 import { GrMailOption } from "react-icons/gr";
 import { BsTelephone } from "react-icons/bs";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import EmaarLogo from "../../assets/images/emaar-logo.png";
 
 const Footer = () => {
   return (
@@ -26,7 +27,7 @@ const Footer = () => {
       >
         <Box flex={2}>
           <Image
-            src="https://emaar.amberhomes.ae/assets/logo-300fab82.png"
+            src={EmaarLogo}
             alt="logo"
             filter={"brightness(10) invert(0)"}
             w={"10rem"}

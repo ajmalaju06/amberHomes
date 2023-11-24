@@ -13,7 +13,7 @@ const AwardWinning = () => {
       px={"5rem"}
       display={"flex"}
       py={6}
-      boxShadow={`0px 7px 15px 2px ${color.primaryYellow}`}
+      // boxShadow={`0px 7px 15px 2px ${color.primaryYellow}`}
       justifyContent={"center"}
       gap={10}
     >

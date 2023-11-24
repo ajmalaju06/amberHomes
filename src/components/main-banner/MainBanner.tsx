@@ -93,4 +93,4 @@ const MainBanner: React.FC<MainBanner> = ({ handleArrowScroll }) => {
   );
 };
 
-export default MainBanner;
+export default React.memo(MainBanner);

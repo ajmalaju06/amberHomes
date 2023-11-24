@@ -13,6 +13,11 @@ import CapitalImg from "../assets/images/capital-appreciation.png";
 import HighRentalImg from "../assets/images/high-rental.png";
 import EasyBankingImg from "../assets/images/easy-bank.png";
 import TopNotchImg from "../assets/images/top-notch.png";
+import PropertyImg1 from "../assets/images/property-1.webp";
+import PropertyImg2 from "../assets/images/property-2.jpeg";
+import PropertyImg3 from "../assets/images/property-3.jpeg";
+import PropertyImg4 from "../assets/images/property-4.jpeg";
+import PropertyImg5 from "../assets/images/property-5.jpeg";
 
 export const headerMenuList = [
   {
@@ -41,7 +46,7 @@ export const propertiesList = [
       "Emaar Dubai continues to be a major player in the global real estate market, with a strong focus on quality, innovation, and creating environments that enhance the quality of life for residents and visitors alike. The company's developments have left a lasting impact on Dubai and have set a standard for urban development around the world. Emaar has played a significant role in shaping the urban landscape of Dubai and many other global cities. The company is known for its iconic and innovative real estate projects, particularly in the areas of residential, commercial, and leisure development.",
     price: "AED 1.2 M",
     specs: "3 - 4 BD | 2 BA | 920 SF",
-    image: "https://emaar.amberhomes.ae/assets/1-6c6a7f0f.webp",
+    image: PropertyImg1,
   },
   {
     id: "2",
@@ -50,7 +55,7 @@ export const propertiesList = [
       "Emaar Dubai continues to be a major player in the global real estate market, with a strong focus on quality, innovation, and creating environments that enhance the quality of life for residents and visitors alike. The company's developments have left a lasting impact on Dubai and have set a standard for urban development around the world. Emaar has played a significant role in shaping the urban landscape of Dubai and many other global cities. The company is known for its iconic and innovative real estate projects, particularly in the areas of residential, commercial, and leisure development.",
     price: "AED 2.1 M",
     specs: "1 - 3 BD | 2 BA | 920 SF",
-    image: "https://emaar.amberhomes.ae/assets/main-fee71b69.jpg",
+    image: PropertyImg2,
   },
   {
     id: "3",
@@ -59,7 +64,7 @@ export const propertiesList = [
       "Emaar Dubai continues to be a major player in the global real estate market, with a strong focus on quality, innovation, and creating environments that enhance the quality of life for residents and visitors alike. The company's developments have left a lasting impact on Dubai and have set a standard for urban development around the world. Emaar has played a significant role in shaping the urban landscape of Dubai and many other global cities. The company is known for its iconic and innovative real estate projects, particularly in the areas of residential, commercial, and leisure development.",
     price: "AED 1.45 M",
     specs: "1 - 3 BD | 2 BA | 920 SF",
-    image: "https://emaar.amberhomes.ae/assets/main-e29852b2.jpg",
+    image: PropertyImg3,
   },
   {
     id: "4",
@@ -68,7 +73,7 @@ export const propertiesList = [
       "Emaar Dubai continues to be a major player in the global real estate market, with a strong focus on quality, innovation, and creating environments that enhance the quality of life for residents and visitors alike. The company's developments have left a lasting impact on Dubai and have set a standard for urban development around the world. Emaar has played a significant role in shaping the urban landscape of Dubai and many other global cities. The company is known for its iconic and innovative real estate projects, particularly in the areas of residential, commercial, and leisure development.",
     price: "AED 8.5 M",
     specs: "4 - 5 BD | 2 BA | 920 SF",
-    image: "https://emaar.amberhomes.ae/assets/main-a819a475.jpg",
+    image: PropertyImg4,
   },
   {
     id: "5",
@@ -77,7 +82,7 @@ export const propertiesList = [
       "Emaar Dubai continues to be a major player in the global real estate market, with a strong focus on quality, innovation, and creating environments that enhance the quality of life for residents and visitors alike. The company's developments have left a lasting impact on Dubai and have set a standard for urban development around the world. Emaar has played a significant role in shaping the urban landscape of Dubai and many other global cities. The company is known for its iconic and innovative real estate projects, particularly in the areas of residential, commercial, and leisure development.",
     price: "AED 1,73M",
     specs: "1 - 4 BD | 2 BA | 920 SF",
-    image: "https://emaar.amberhomes.ae/assets/main-1281fe3f.jpg",
+    image: PropertyImg5,
   },
   {},
 ];
